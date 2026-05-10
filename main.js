@@ -4,3 +4,4 @@ console.log('Hello World!');
  { 
    window.location.href = "index.html"
  }
+alert("أهلاً بك في RecipeHub ✨\nنتشرف بزيارتك");
