@@ -1,50 +1,56 @@
 body {
     font-size: 15pt;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color:blue;
-    font-size:30pt;
+    color: blue;
+    font-size: 30pt;
     text-align: center;
 }
 
 h2 {
-    color:green;
+    color: green;
     text-align: center;
     background-color: yellow;
-    
 }
 
 p {
-    color:red;
+    color: red;
     text-align: center;
     font-weight: bold;
-    
 }
- .header {
-     
-     background-color: lightblue;
- }
- .a {
-     background-color: pink;
- 
-   
- }
 
-button{
-    
+.header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.a {
+    background-color: pink;
+    text-align: center;
+}
+
+button {
     background-color: red;
-    align-items: center;
-    margin: 20px;
+    display: block;
+    margin: 20px auto;
     color: white;
-    
     width: 250px;
-    
     height: 60px;
-    
     font-size: 22px;
-    
-    border: 5pt;
-    
+    border: none;
     border-radius: 15px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    clear: both;
 }
